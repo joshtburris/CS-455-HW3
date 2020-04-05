@@ -1,6 +1,0 @@
-<configuration>
-  <property>
-    <name>fs.default.name</name>
-    <value>hdfs://hong-kong:30221</value>
-  </property>
-</configuration>
