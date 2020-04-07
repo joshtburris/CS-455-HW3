@@ -2,7 +2,7 @@ package cs455.hadoop.q;
 
 public class Constants {
 
-    private static final int
+    public static final int
         STATE_CODE = 0,
         COUNTY_CODE = 1,
         SITE_NUM = 2,
