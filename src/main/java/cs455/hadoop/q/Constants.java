@@ -14,7 +14,7 @@ public class Constants {
         PARAM_NAME = 8,
         DATE_LOCAL = 9,
         TIME_LOCAL = 10,
-        DATA_GMT = 11,
+        DATE_GMT = 11,
         TIME_GMT = 12,
         SAMPLE_MEASUREMENT = 13,
         UNITS_OF_MEASURE = 14,
