@@ -28,7 +28,7 @@ public class Q3 {
             try {
 
                 String year = csv[Constants.DATE_GMT].split("-")[0];
-                String time = csv[Constants.TIME_GMT];
+                String time = csv[Constants.TIME_GMT].split(":")[0];
                 double sample = Double.parseDouble(csv[Constants.SAMPLE_MEASUREMENT]);
 
                 if (Integer.parseInt(year) < 2000)
