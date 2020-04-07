@@ -34,16 +34,16 @@ public class Q3 {
                 if (Integer.parseInt(year) < 2000)
                     return;
 
-                String key = year +"\t"+ time;
+                String newKey = year +"\t"+ time;
 
-                String val = map.get(key);
+                String val = map.get(newKey);
                 if (val == null) {
-                    map.put(key, sample +"\t1");
+                    map.put(newKey, sample +"\t1");
                 } else {
                     String[] data = val.split("\t");
                     double sum = sample + Double.parseDouble(data[0]);
                     long count = 1 + Long.parseLong(data[1]);
-                    map.put(key, sum +"\t"+ count);
+                    map.put(newKey, sum +"\t"+ count);
                 }
 
             } catch (Exception e) { }
@@ -58,7 +58,7 @@ public class Q3 {
 
     }
 
-    public static class Q3Reducer extends Reducer<Text, Text, Text, IntWritable> {
+    public static class Q3Reducer extends Reducer<Text, Text, Text, DoubleWritable> {
 
         private TreeMap<String, String> map = new TreeMap<>();
 
