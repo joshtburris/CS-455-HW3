@@ -3,9 +3,6 @@ HGET=-${HADOOP_HOME}/bin/hadoop fs -get
 HJAR=${HADOOP_HOME}/bin/hadoop jar
 HREMOVE=-${HADOOP_HOME}/bin/hadoop fs -rm -R
 
-test:
-	echo $@
-
 build:
 	gradle build
 
@@ -48,5 +45,5 @@ Q5:
 Q6:
 	-rm -r $@-out
 	${HREMOVE} /home/$@-out/
-	${HJAR} ./build/libs/CS-455-HW3.jar cs455.hadoop.q.$@ /data// /home/$@-out/
+	${HJAR} ./build/libs/CS-455-HW3.jar cs455.hadoop.q.$@ /data/gases/ /home/$@-out/
 	${HGET} /home/$@-out/ ./$@-out

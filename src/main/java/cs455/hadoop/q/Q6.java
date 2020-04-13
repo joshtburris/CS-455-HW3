@@ -27,12 +27,12 @@ public class Q6 {
 
             try {
 
-                int month = Integer.parseInt(csv[Constants.DATE_GMT].split("-")[1]);
-                if (month != 6 && month != 7 && month != 8)
+                String state = csv[Constants.STATE_NAME];
+
+                if (!isHotState(state))
                     return;
 
-                String state = csv[Constants.STATE_NAME];
-                double temp = Double.parseDouble(csv[Constants.SAMPLE_MEASUREMENT]);
+                double sample = Double.parseDouble(csv[Constants.SAMPLE_MEASUREMENT]);
 
                 String val = map.get(state);
                 if (val == null) {
@@ -84,22 +84,11 @@ public class Q6 {
         }
 
         public void cleanup(Context context) throws IOException, InterruptedException {
-
-            TreeMap<String, Double> avg = new TreeMap<>();
-
             for (Map.Entry<String, String> entry : map.entrySet()) {
                 String[] data = entry.getValue().split("\t");
                 double val = Double.parseDouble(data[0]) / Double.parseDouble(data[1]);
-                avg.put(entry.getKey(), val);
+                context.write(new Text(entry.getKey()), new DoubleWritable(val));
             }
-
-            int i = 0;
-            for (Map.Entry<String, Double> entry : sortedSet(avg)) {
-                if (i < 10)
-                    context.write(new Text(entry.getKey()), new DoubleWritable(entry.getValue()));
-                ++i;
-            }
-
         }
 
     }
@@ -146,6 +135,15 @@ public class Q6 {
         sortedEntries.addAll(map.entrySet());
 
         return sortedEntries;
+    }
+
+    private static boolean isHotState(String state) {
+        switch (state) {
+            case "Arizona": case "Puerto Rico": case "Texas": case "Nevada": case "Virgin Islands":
+            case "Mississippi": case "Florida": case "Louisiana": case "Arkansas": case "Oklahoma":
+                return true;
+        }
+        return false;
     }
 
     public static void main(String[] args) {

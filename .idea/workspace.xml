@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7142336e-c481-4957-a524-e6fb83eb3cb2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cs455/hadoop/q/Q4.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cs455/hadoop/q/Q5.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cs455/hadoop/q/Q6.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Makefile" afterPath="$PROJECT_DIR$/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cs455/hadoop/q/Constants.java" afterPath="$PROJECT_DIR$/src/main/java/cs455/hadoop/q/Constants.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cs455/hadoop/q/Q6.java" afterPath="$PROJECT_DIR$/src/main/java/cs455/hadoop/q/Q6.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,7 +24,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/cs455/hadoop/q/Q1.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="112">
-              <caret line="37" column="45" lean-forward="true" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+              <caret line="37" column="45" lean-forward="false" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
               <folding>
                 <element signature="method#splitCSV#0;class#Q1#0" expanded="false" />
                 <element signature="method#sortedSet#0;class#Q1#0" expanded="false" />
@@ -40,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/cs455/hadoop/q/Q2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="708">
-              <caret line="150" column="0" lean-forward="true" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
+              <caret line="150" column="0" lean-forward="false" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="false" />
                 <element signature="method#splitCSV#0;class#Q2#0" expanded="false" />
@@ -54,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/cs455/hadoop/q/Q3.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="27" column="17" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
+              <caret line="27" column="17" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
               <folding>
                 <element signature="method#splitCSV#0;class#Q3#0" expanded="false" />
                 <element signature="method#sortedSet#0;class#Q3#0" expanded="false" />
@@ -66,11 +63,9 @@
       <file leaf-file-name="Q4.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cs455/hadoop/q/Q4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="144" column="47" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
+            <state relative-caret-position="595">
+              <caret line="86" column="13" lean-forward="true" selection-start-line="82" selection-start-column="12" selection-end-line="86" selection-end-column="13" />
               <folding>
-                <element signature="class#Q4Mapper#0;class#Q4#0" expanded="false" />
-                <element signature="class#Q4Reducer#0;class#Q4#0" expanded="false" />
                 <element signature="method#splitCSV#0;class#Q4#0" expanded="false" />
                 <element signature="method#sortedSet#0;class#Q4#0" expanded="false" />
               </folding>
@@ -81,12 +76,12 @@
       <file leaf-file-name="Q5.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cs455/hadoop/q/Q5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="159" column="47" lean-forward="true" selection-start-line="159" selection-start-column="47" selection-end-line="159" selection-end-column="47" />
+            <state relative-caret-position="888">
+              <caret line="159" column="47" lean-forward="false" selection-start-line="159" selection-start-column="47" selection-end-line="159" selection-end-column="47" />
               <folding>
                 <element signature="class#Q5Mapper#0;class#Q5#0" expanded="false" />
-                <element signature="method#splitCSV#0;class#Q5#0" expanded="false" />
-                <element signature="method#sortedSet#0;class#Q5#0" expanded="false" />
+                <marker date="1586772809000" expanded="false" signature="3485:4299" ph="{...}" />
+                <marker date="1586772809000" expanded="false" signature="4406:4907" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -95,12 +90,24 @@
       <file leaf-file-name="Q6.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/cs455/hadoop/q/Q6.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="41" column="68" lean-forward="true" selection-start-line="41" selection-start-column="68" selection-end-line="41" selection-end-column="68" />
+            <state relative-caret-position="356">
+              <caret line="75" column="35" lean-forward="true" selection-start-line="75" selection-start-column="35" selection-end-line="75" selection-end-column="35" />
               <folding>
-                <element signature="method#splitCSV#0;class#Q5#0" expanded="false" />
-                <element signature="method#sortedSet#0;class#Q5#0" expanded="false" />
+                <element signature="class#Q6Mapper#0;class#Q6#0" expanded="false" />
+                <element signature="method#isHotState#0;class#Q6#0" expanded="false" />
+                <marker date="1586795286000" expanded="false" signature="3102:3916" ph="{...}" />
+                <marker date="1586795286000" expanded="false" signature="4023:4524" ph="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="part-r-00000" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Q5-out/part-r-00000">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -109,7 +116,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/cs455/hadoop/q/Constants.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
-              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -118,8 +125,8 @@
       <file leaf-file-name="Makefile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Makefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="44" column="78" lean-forward="false" selection-start-line="44" selection-start-column="78" selection-end-line="44" selection-end-column="78" />
+            <state relative-caret-position="72">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -149,10 +156,10 @@
         <option value="$PROJECT_DIR$/CS-455-HW3.iml" />
         <option value="$PROJECT_DIR$/src/main/java/cs455/hadoop/q/Q2.java" />
         <option value="$PROJECT_DIR$/src/main/java/cs455/hadoop/q/Q3.java" />
-        <option value="$PROJECT_DIR$/Makefile" />
         <option value="$PROJECT_DIR$/src/main/java/cs455/hadoop/q/Q4.java" />
         <option value="$PROJECT_DIR$/src/main/java/cs455/hadoop/q/Constants.java" />
         <option value="$PROJECT_DIR$/src/main/java/cs455/hadoop/q/Q5.java" />
+        <option value="$PROJECT_DIR$/Makefile" />
         <option value="$PROJECT_DIR$/src/main/java/cs455/hadoop/q/Q6.java" />
       </list>
     </option>
@@ -240,10 +247,6 @@
               <option name="myItemId" value="hadoop" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wordcount" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -276,6 +279,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="q" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CS-455-HW3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CS-455-HW3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Q5-out" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -691,7 +708,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/cs455/hadoop/q/Q2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="708">
-          <caret line="150" column="0" lean-forward="true" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
+          <caret line="150" column="0" lean-forward="false" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="false" />
             <element signature="method#splitCSV#0;class#Q2#0" expanded="false" />
@@ -703,7 +720,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/cs455/hadoop/q/Q3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="27" column="17" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
+          <caret line="27" column="17" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
           <folding>
             <element signature="method#splitCSV#0;class#Q3#0" expanded="false" />
             <element signature="method#sortedSet#0;class#Q3#0" expanded="false" />
@@ -711,18 +728,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="78" lean-forward="false" selection-start-line="44" selection-start-column="78" selection-end-line="44" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cs455/hadoop/q/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -730,7 +739,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/cs455/hadoop/q/Q1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
-          <caret line="37" column="45" lean-forward="true" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+          <caret line="37" column="45" lean-forward="false" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
           <folding>
             <element signature="method#splitCSV#0;class#Q1#0" expanded="false" />
             <element signature="method#sortedSet#0;class#Q1#0" expanded="false" />
@@ -738,38 +747,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Q5-out/part-r-00000">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cs455/hadoop/q/Q5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="888">
+          <caret line="159" column="47" lean-forward="false" selection-start-line="159" selection-start-column="47" selection-end-line="159" selection-end-column="47" />
+          <folding>
+            <element signature="class#Q5Mapper#0;class#Q5#0" expanded="false" />
+            <marker date="1586772809000" expanded="false" signature="3485:4299" ph="{...}" />
+            <marker date="1586772809000" expanded="false" signature="4406:4907" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cs455/hadoop/q/Q4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="144" column="47" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
+        <state relative-caret-position="595">
+          <caret line="86" column="13" lean-forward="true" selection-start-line="82" selection-start-column="12" selection-end-line="86" selection-end-column="13" />
           <folding>
-            <element signature="class#Q4Mapper#0;class#Q4#0" expanded="false" />
-            <element signature="class#Q4Reducer#0;class#Q4#0" expanded="false" />
             <element signature="method#splitCSV#0;class#Q4#0" expanded="false" />
             <element signature="method#sortedSet#0;class#Q4#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cs455/hadoop/q/Q5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="159" column="47" lean-forward="true" selection-start-line="159" selection-start-column="47" selection-end-line="159" selection-end-column="47" />
-          <folding>
-            <element signature="class#Q5Mapper#0;class#Q5#0" expanded="false" />
-            <element signature="method#splitCSV#0;class#Q5#0" expanded="false" />
-            <element signature="method#sortedSet#0;class#Q5#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cs455/hadoop/q/Q6.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="41" column="68" lean-forward="true" selection-start-line="41" selection-start-column="68" selection-end-line="41" selection-end-column="68" />
+        <state relative-caret-position="356">
+          <caret line="75" column="35" lean-forward="true" selection-start-line="75" selection-start-column="35" selection-end-line="75" selection-end-column="35" />
           <folding>
-            <element signature="method#splitCSV#0;class#Q5#0" expanded="false" />
-            <element signature="method#sortedSet#0;class#Q5#0" expanded="false" />
+            <element signature="class#Q6Mapper#0;class#Q6#0" expanded="false" />
+            <element signature="method#isHotState#0;class#Q6#0" expanded="false" />
+            <marker date="1586795286000" expanded="false" signature="3102:3916" ph="{...}" />
+            <marker date="1586795286000" expanded="false" signature="4023:4524" ph="{...}" />
           </folding>
         </state>
       </provider>
