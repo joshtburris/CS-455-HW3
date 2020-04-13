@@ -27,7 +27,7 @@ public class Q5 {
 
             try {
 
-                int month = csv[Constants.DATE_GMT].split("-")[1];
+                int month = Integer.parseInt(csv[Constants.DATE_GMT].split("-")[1]);
                 if (month != 6 && month != 7 && month != 8)
                     return;
 

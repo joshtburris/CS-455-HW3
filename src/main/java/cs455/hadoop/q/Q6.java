@@ -12,7 +12,7 @@ import org.apache.hadoop.mapreduce.lib.input.*;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.log4j.Logger;
 
-public class Q5 {
+public class Q6 {
 
     public static class Q6Mapper extends Mapper<Object, Text, Text, Text> {
 
@@ -27,7 +27,7 @@ public class Q5 {
 
             try {
 
-                int month = csv[Constants.DATE_GMT].split("-")[1];
+                int month = Integer.parseInt(csv[Constants.DATE_GMT].split("-")[1]);
                 if (month != 6 && month != 7 && month != 8)
                     return;
 
