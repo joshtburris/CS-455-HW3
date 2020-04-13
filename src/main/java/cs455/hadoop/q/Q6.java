@@ -36,10 +36,10 @@ public class Q6 {
 
                 String val = map.get(state);
                 if (val == null) {
-                    map.put(state, temp +"\t1");
+                    map.put(state, sample +"\t1");
                 } else {
                     String[] data = val.split("\t");
-                    double sum = temp + Double.parseDouble(data[0]);
+                    double sum = sample + Double.parseDouble(data[0]);
                     long count = 1 + Long.parseLong(data[1]);
                     map.put(state, sum +"\t"+ count);
                 }
