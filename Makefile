@@ -36,13 +36,13 @@ Q3:
 Q4:
 	-rm -r $@-out
 	${HREMOVE} /home/$@-out/
-	${HJAR} ./build/libs/CS-455-HW3.jar cs455.hadoop.q.$@ /data// /home/$@-out/
+	${HJAR} ./build/libs/CS-455-HW3.jar cs455.hadoop.q.$@ /data/gases/ /home/$@-out/
 	${HGET} /home/$@-out/ ./$@-out
 
 Q5:
 	-rm -r $@-out
 	${HREMOVE} /home/$@-out/
-	${HJAR} ./build/libs/CS-455-HW3.jar cs455.hadoop.q.$@ /data// /home/$@-out/
+	${HJAR} ./build/libs/CS-455-HW3.jar cs455.hadoop.q.$@ /data/meteorological/ /home/$@-out/
 	${HGET} /home/$@-out/ ./$@-out
 
 Q6:
